@@ -1,0 +1,18 @@
+{
+  "name": "cryptografie_yoni_celen",
+  "version": "1.0.0",
+  "description": "oplossing taak cryptografie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yoni Celen",
+  "license": "ISC",
+  "dependencies": {
+    "libsodium-wrappers": "^0.7.9"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0"
+  }
+}
