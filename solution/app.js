@@ -1,7 +1,6 @@
 const {decryptChallenge} = require("./decrypt");
-//const {encode} = require("./decrypt");
 const {post} = require("./request");
-const {get} = require("./request");
+//const {get} = require("./request");
 const {del} = require("./request");
 
 const solve = async () => {
