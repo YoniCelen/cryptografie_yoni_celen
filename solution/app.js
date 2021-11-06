@@ -1,7 +1,5 @@
 const {decryptChallenge} = require("./decrypt");
-const {post} = require("./request");
-//const {get} = require("./request");
-const {del} = require("./request");
+const {post, get, del} = require("./request");
 
 const solve = async () => {
     const postReturn = await post()
@@ -13,7 +11,7 @@ const solve = async () => {
     const jsonNonce = postData.nonce
     const jsonChallenge = postData.challenge
 
-    const decrypted = await decryptChallenge(jsonKey,jsonNonce,jsonChallenge);
+    const decrypted = await decryptChallenge(jsonKey, jsonNonce, jsonChallenge);
     await del(kid, decrypted)
 }
 
