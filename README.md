@@ -3,10 +3,10 @@
 installation :
 
 ```
-$ git clone https://github.com/YoniCelen/cryptografie_yoni_celen
-$ cd cryptografie_yoni_celen
-$ npm install
-$ npm start
+git clone https://github.com/YoniCelen/cryptografie_yoni_celen
+cd cryptografie_yoni_celen
+npm install
+npm start
 ```
 
 Wanneer je de App.js runt zal de code automatisch een post sturen, decrypteren en een delete request met de solution terug sturen.\
